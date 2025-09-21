@@ -1,0 +1,70 @@
+%%markdown
+# Data Science Tools and Ecosystem
+%%markdown
+This notebook provides a summary of some of the key tools and concepts used in data science.
+%%markdown
+## Data Science Languages
+
+Some of the popular languages that Data Scientists use are:
+* Python
+* R
+* SQL
+* Java
+* Scala
+* C++
+* Julia
+
+%%markdown
+## Data Science Libraries
+
+Some of the commonly used libraries used by Data Scientists include:
+* Pandas
+* NumPy
+* SciPy
+* Scikit-learn
+* TensorFlow
+* Keras
+* PyTorch
+* Matplotlib
+* Seaborn
+
+%%markdown
+## Data Science Tools
+
+| Data Science Tools |
+|--------------------|
+| Jupyter Notebooks  |
+| RStudio            |
+| VS Code            |
+| Apache Zeppelin    |
+
+%%markdown
+## Arithmetic Expression Examples
+
+The following code cells will demonstrate basic arithmetic operations such as addition and multiplication.
+
+# Multiply two numbers
+print(5 * 10)
+
+# Add two numbers
+print(15 + 25)
+
+# Convert minutes to hours
+minutes = 120
+hours = minutes / 60
+print(hours)
+
+%%markdown
+## Objectives
+
+The key objectives of this notebook are to:
+* Summarize common data science languages.
+* List popular data science libraries.
+* Present a table of data science tools.
+* Demonstrate basic arithmetic operations in code cells.
+* Show how to convert units using Python.
+* Explain how to share a Jupyter Notebook on GitHub.
+
+%%markdown
+## Author
+[NGUYEN NGOC BAO TRINH]
