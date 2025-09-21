@@ -1,0 +1,54 @@
+# Simple Jupyter Notebook - English Version
+
+## Introduction
+#This notebook is designed to introduce the most fundamental concepts in Python.
+
+## Part 1: Variables and Operations
+#We'll store values in variables and perform arithmetic operations.
+
+# Assign values to variables
+number_1 = 20
+number_2 = 15
+print(f"The value of number_1 is: {number_1}")
+print(f"The value of number_2 is: {number_2}")
+
+# Perform addition and subtraction
+addition = number_1 + number_2
+subtraction = number_1 - number_2
+print(f"The result of addition is: {addition}")
+print(f"The result of subtraction is: {subtraction}")
+
+## Part 2: Working with Strings
+#You can store text in variables and combine them.
+
+# Create string variables
+greeting = "Hello"
+name = "World"
+
+# Combine strings
+full_message = greeting + ", " + name + "!"
+print(full_message)
+
+# Repeat a string
+repeat_message = "Python" * 3
+print(repeat_message)
+
+
+## Part 3: Lists
+#Lists allow you to store multiple values in a single variable.
+
+# Create a list
+fruits = ["Apple", "Orange", "Mango"]
+print(f"Original list: {fruits}")
+
+# Add an item to the list
+fruits.append("Grape")
+print(f"List after adding 'Grape': {fruits}")
+
+# Access an item by its index
+first_fruit = fruits[0]
+print(f"The first item in the list is: {first_fruit}")
+
+
+## Conclusion
+#This notebook has introduced basic concepts of variables, operations, strings, and lists. These are the core building blocks of Python programming.
