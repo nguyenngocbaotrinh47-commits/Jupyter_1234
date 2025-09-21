@@ -1,0 +1,41 @@
+####1
+import yfinance as yf
+tesla = yf.Ticker("SHOP")
+tesla_data=tesla.history(period="max")
+tesla_data.reset_index(inplace=True)
+tesla_data.head()
+####3
+import yfinance as yf
+
+# Get ticker data for GameStop (GME)
+gamestop = yf.Ticker("GME")
+
+# Get historical market data
+gme_data = gamestop.history(period="max")
+
+# Reset index and display the first few rows
+gme_data.reset_index(inplace=True)
+display(gme_data.head())
+###
+import matplotlib.pyplot as plt
+
+def make_graph(data, title, y_axis_label):
+    """
+    Generates a line plot from the provided data.
+
+    Args:
+        data (pd.DataFrame): The dataframe containing the data to plot.
+        title (str): The title of the graph.
+        y_axis_label (str): The label for the y-axis.
+    """
+    plt.figure(figsize=(10, 6))
+    plt.plot(data['Date'], data[y_axis_label])
+    plt.title(title)
+    plt.xlabel('Date')
+    plt.ylabel(y_axis_label)
+    plt.grid(True)
+    plt.show()
+# Plot Tesla Stock Graph
+make_graph(tesla_data, 'Tesla Stock Price (Close)', 'Close')
+# Plot GameStop Stock Graph
+make_graph(gme_data, 'GameStop Stock Price (Close)', 'Close')
